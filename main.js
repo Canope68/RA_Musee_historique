@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ] = await loadTextures([
       './images/portfolio/icons/left.png',
       './images/portfolio/icons/right.png',
-      './images/Anne_Marie_Koechlin_01.png',
+      './images/Anne_Marie_Koechlin_01.jpg',
       './images/Anne_Marie_Koechlin_02.jpg',
     ]);
 
