@@ -125,18 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -244,18 +232,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Anne_Marie_Koechlin_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -367,18 +343,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Chlimene_Koechlin_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -494,18 +458,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Edouard_Mieg_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -613,18 +565,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Elisabeth_Reber_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -736,18 +676,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      JJ_Koechlin_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -859,18 +787,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Jean_Dollfus_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -983,18 +899,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Jean_Georges_Dollfus_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -1115,18 +1019,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Jean_Henri_Dollfus_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -1239,18 +1131,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Jean_Koechlin_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -1363,18 +1243,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Marguerite_Hoffer_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -1490,18 +1358,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Marie_Madeleine_Mieg_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -1613,18 +1469,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Mathieu_Mieg_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
@@ -1728,18 +1572,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	    } else {
 	      Salome_Koechlin_portfolioItem0Video.pause();
 	    }
-	  } else if (o === webIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://github.com/hiukim/mind-ar-js";
-	  } else if (o === emailIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "hiukim528 [at] gmail";
-	  } else if (o === profileIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "https://hiukim.com";
-	  } else if (o === locationIcon) {
-	    textObj.visible = true;
-	    textElement.innerHTML = "Vancouver, Canada";
 	  }
 	}
       }
