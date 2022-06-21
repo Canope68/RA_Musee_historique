@@ -18,16 +18,18 @@ document.addEventListener('DOMContentLoaded', () => {
       portfolioItem0Texture,
       portfolioItem1Texture,
       portfolioItem2Texture,
-	  portfolioItem3Texture,
-	  portfolioItem4Texture,
+      portfolioItem3Texture,
+      portfolioItem4Texture,
+      portfolioItem5Texture,
     ] = await loadTextures([
       './images/portfolio/icons/left.png',
       './images/portfolio/icons/right.png',
       './images/Ursule_Dollfus_01.jpg',
       './images/Ursule_Dollfus_02.jpg',
       './images/Ursule_Dollfus_03.jpg',
-	  './images/Ursule_Dollfus_04.jpg',
-	  './images/Ursule_Dollfus_05.jpg',
+      './images/Ursule_Dollfus_04.jpg',
+      './images/Ursule_Dollfus_05.jpg',
+      './images/Ursule_Dollfus_05.jpg',
     ]);
 
     const planeGeometry = new THREE.PlaneGeometry(1, 0.552);
@@ -45,15 +47,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const portfolioItem0Material = new THREE.MeshBasicMaterial({map: portfolioItem0Texture});
     const portfolioItem1Material = new THREE.MeshBasicMaterial({map: portfolioItem1Texture});
     const portfolioItem2Material = new THREE.MeshBasicMaterial({map: portfolioItem2Texture});
-	const portfolioItem3Material = new THREE.MeshBasicMaterial({map: portfolioItem3Texture});
-	const portfolioItem4Material = new THREE.MeshBasicMaterial({map: portfolioItem4Texture});
+    const portfolioItem3Material = new THREE.MeshBasicMaterial({map: portfolioItem3Texture});
+    const portfolioItem4Material = new THREE.MeshBasicMaterial({map: portfolioItem4Texture}); 
+    const portfolioItem5Material = new THREE.MeshBasicMaterial({map: portfolioItem5Texture});
 
     const portfolioItem0V = new THREE.Mesh(planeGeometry, portfolioItem0VideoMaterial); 
     const portfolioItem0 = new THREE.Mesh(planeGeometry, portfolioItem0Material); 
     const portfolioItem1 = new THREE.Mesh(planeGeometry, portfolioItem1Material); 
     const portfolioItem2 = new THREE.Mesh(planeGeometry, portfolioItem2Material); 
-	const portfolioItem3 = new THREE.Mesh(planeGeometry, portfolioItem3Material); 
-	const portfolioItem4 = new THREE.Mesh(planeGeometry, portfolioItem4Material); 
+    const portfolioItem3 = new THREE.Mesh(planeGeometry, portfolioItem3Material); 
+    const portfolioItem4 = new THREE.Mesh(planeGeometry, portfolioItem4Material);  
+    const portfolioItem5 = new THREE.Mesh(planeGeometry, portfolioItem5Material);
 
 
     const portfolioGroup = new THREE.Group();
@@ -86,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     portfolioItem0.userData.clickable = true;
     portfolioItem0V.userData.clickable = true;
 
-    const portfolioItems = [portfolioItem0, portfolioItem1, portfolioItem2, portfolioItem3, portfolioItem4]; 
+    const portfolioItems = [portfolioItem0, portfolioItem1, portfolioItem2, portfolioItem3, portfolioItem4, portfolioItem5]; 
     let currentPortfolio = 0;
 
     document.body.addEventListener('click', (e) => {
@@ -577,12 +581,14 @@ document.addEventListener('DOMContentLoaded', () => {
       JJ_Koechlin_portfolioItem0Texture,
       JJ_Koechlin_portfolioItem1Texture,
       JJ_Koechlin_portfolioItem2Texture,
+      JJ_Koechlin_portfolioItem3Texture,
     ] = await loadTextures([
       './images/portfolio/icons/left.png',
       './images/portfolio/icons/right.png',
       './images/JJ_Koechlin_01.jpg',
       './images/JJ_Koechlin_02.jpg',
       './images/JJ_Koechlin_03.jpg',
+      './images/JJ_Koechlin_02_b.jpg',
     ]);
 
     const JJ_Koechlin_planeGeometry = new THREE.PlaneGeometry(1, 0.552);
@@ -600,11 +606,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const JJ_Koechlin_portfolioItem0Material = new THREE.MeshBasicMaterial({map: JJ_Koechlin_portfolioItem0Texture});
     const JJ_Koechlin_portfolioItem1Material = new THREE.MeshBasicMaterial({map: JJ_Koechlin_portfolioItem1Texture});
     const JJ_Koechlin_portfolioItem2Material = new THREE.MeshBasicMaterial({map: JJ_Koechlin_portfolioItem2Texture});
+    const JJ_Koechlin_portfolioItem3Material = new THREE.MeshBasicMaterial({map: JJ_Koechlin_portfolioItem3Texture});
 
     const JJ_Koechlin_portfolioItem0V = new THREE.Mesh(JJ_Koechlin_planeGeometry, JJ_Koechlin_portfolioItem0VideoMaterial); 
     const JJ_Koechlin_portfolioItem0 = new THREE.Mesh(JJ_Koechlin_planeGeometry, JJ_Koechlin_portfolioItem0Material); 
     const JJ_Koechlin_portfolioItem1 = new THREE.Mesh(JJ_Koechlin_planeGeometry, JJ_Koechlin_portfolioItem1Material); 
     const JJ_Koechlin_portfolioItem2 = new THREE.Mesh(JJ_Koechlin_planeGeometry, JJ_Koechlin_portfolioItem2Material); 
+    const JJ_Koechlin_portfolioItem3 = new THREE.Mesh(JJ_Koechlin_planeGeometry, JJ_Koechlin_portfolioItem3Material); 
 
 
     const JJ_Koechlin_portfolioGroup = new THREE.Group();
@@ -637,7 +645,7 @@ document.addEventListener('DOMContentLoaded', () => {
     JJ_Koechlin_portfolioItem0.userData.clickable = true;
     JJ_Koechlin_portfolioItem0V.userData.clickable = true;
 
-    const JJ_Koechlin_portfolioItems = [JJ_Koechlin_portfolioItem0, JJ_Koechlin_portfolioItem1, JJ_Koechlin_portfolioItem2]; 
+    const JJ_Koechlin_portfolioItems = [JJ_Koechlin_portfolioItem0, JJ_Koechlin_portfolioItem1, JJ_Koechlin_portfolioItem2, JJ_Koechlin_portfolioItem3]; 
     let JJ_Koechlin_currentPortfolio = 0;
 
     document.body.addEventListener('click', (e) => {
@@ -687,13 +695,11 @@ document.addEventListener('DOMContentLoaded', () => {
       Jean_Dollfus_rightTexture,
       Jean_Dollfus_portfolioItem0Texture,
       Jean_Dollfus_portfolioItem1Texture,
-      Jean_Dollfus_portfolioItem2Texture,
     ] = await loadTextures([
       './images/portfolio/icons/left.png',
       './images/portfolio/icons/right.png',
       './images/Jean_Dollfus_01.jpg',
       './images/Jean_Dollfus_02.jpg',
-      './images/Jean_Dollfus_03.jpg',
     ]);
 
     const Jean_Dollfus_planeGeometry = new THREE.PlaneGeometry(1, 0.552);
@@ -710,12 +716,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const Jean_Dollfus_portfolioItem0VideoMaterial = new THREE.MeshBasicMaterial({map: Jean_Dollfus_portfolioItem0VideoTexture});
     const Jean_Dollfus_portfolioItem0Material = new THREE.MeshBasicMaterial({map: Jean_Dollfus_portfolioItem0Texture});
     const Jean_Dollfus_portfolioItem1Material = new THREE.MeshBasicMaterial({map: Jean_Dollfus_portfolioItem1Texture});
-    const Jean_Dollfus_portfolioItem2Material = new THREE.MeshBasicMaterial({map: Jean_Dollfus_portfolioItem2Texture});
 
     const Jean_Dollfus_portfolioItem0V = new THREE.Mesh(Jean_Dollfus_planeGeometry, Jean_Dollfus_portfolioItem0VideoMaterial); 
     const Jean_Dollfus_portfolioItem0 = new THREE.Mesh(Jean_Dollfus_planeGeometry, Jean_Dollfus_portfolioItem0Material); 
     const Jean_Dollfus_portfolioItem1 = new THREE.Mesh(Jean_Dollfus_planeGeometry, Jean_Dollfus_portfolioItem1Material); 
-    const Jean_Dollfus_portfolioItem2 = new THREE.Mesh(Jean_Dollfus_planeGeometry, Jean_Dollfus_portfolioItem2Material); 
 
 
     const Jean_Dollfus_portfolioGroup = new THREE.Group();
@@ -748,7 +752,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Jean_Dollfus_portfolioItem0.userData.clickable = true;
     Jean_Dollfus_portfolioItem0V.userData.clickable = true;
 
-    const Jean_Dollfus_portfolioItems = [Jean_Dollfus_portfolioItem0, Jean_Dollfus_portfolioItem1, Jean_Dollfus_portfolioItem2]; 
+    const Jean_Dollfus_portfolioItems = [Jean_Dollfus_portfolioItem0, Jean_Dollfus_portfolioItem1]; 
     let Jean_Dollfus_currentPortfolio = 0;
 
     document.body.addEventListener('click', (e) => {
@@ -798,14 +802,10 @@ document.addEventListener('DOMContentLoaded', () => {
       Jean_Georges_Dollfus_leftTexture,
       Jean_Georges_Dollfus_rightTexture,
       Jean_Georges_Dollfus_portfolioItem0Texture,
-      Jean_Georges_Dollfus_portfolioItem1Texture,
-      Jean_Georges_Dollfus_portfolioItem2Texture,
     ] = await loadTextures([
       './images/portfolio/icons/left.png',
       './images/portfolio/icons/right.png',
-      './images/blank.png',
-      './images/blank.png',
-      './images/blank.png',
+      './images/Jean_Georges_Dollfus_01.jpg',
     ]);
 
     const Jean_Georges_Dollfus_planeGeometry = new THREE.PlaneGeometry(1, 0.552);
@@ -821,13 +821,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const Jean_Georges_Dollfus_portfolioItem0VideoTexture = new THREE.VideoTexture(Jean_Georges_Dollfus_portfolioItem0Video);
     const Jean_Georges_Dollfus_portfolioItem0VideoMaterial = new THREE.MeshBasicMaterial({map: Jean_Georges_Dollfus_portfolioItem0VideoTexture});
     const Jean_Georges_Dollfus_portfolioItem0Material = new THREE.MeshBasicMaterial({map: Jean_Georges_Dollfus_portfolioItem0Texture});
-    const Jean_Georges_Dollfus_portfolioItem1Material = new THREE.MeshBasicMaterial({map: Jean_Georges_Dollfus_portfolioItem1Texture});
-    const Jean_Georges_Dollfus_portfolioItem2Material = new THREE.MeshBasicMaterial({map: Jean_Georges_Dollfus_portfolioItem2Texture});
 
     const Jean_Georges_Dollfus_portfolioItem0V = new THREE.Mesh(Jean_Georges_Dollfus_planeGeometry, Jean_Georges_Dollfus_portfolioItem0VideoMaterial); 
-    const Jean_Georges_Dollfus_portfolioItem0 = new THREE.Mesh(Jean_Georges_Dollfus_planeGeometry, Jean_Georges_Dollfus_portfolioItem0Material); 
-    const Jean_Georges_Dollfus_portfolioItem1 = new THREE.Mesh(Jean_Georges_Dollfus_planeGeometry, Jean_Georges_Dollfus_portfolioItem1Material); 
-    const Jean_Georges_Dollfus_portfolioItem2 = new THREE.Mesh(Jean_Georges_Dollfus_planeGeometry, Jean_Georges_Dollfus_portfolioItem2Material); 
+    const Jean_Georges_Dollfus_portfolioItem0 = new THREE.Mesh(Jean_Georges_Dollfus_planeGeometry, Jean_Georges_Dollfus_portfolioItem0Material);
 
 
     const Jean_Georges_Dollfus_portfolioGroup = new THREE.Group();
@@ -860,7 +856,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Jean_Georges_Dollfus_portfolioItem0.userData.clickable = true;
     Jean_Georges_Dollfus_portfolioItem0V.userData.clickable = true;
 
-    const Jean_Georges_Dollfus_portfolioItems = [Jean_Georges_Dollfus_portfolioItem0, Jean_Georges_Dollfus_portfolioItem1, Jean_Georges_Dollfus_portfolioItem2]; 
+    const Jean_Georges_Dollfus_portfolioItems = [Jean_Georges_Dollfus_portfolioItem0]; 
     let Jean_Georges_Dollfus_currentPortfolio = 0;
 
     document.body.addEventListener('click', (e) => {
@@ -1262,7 +1258,7 @@ document.addEventListener('DOMContentLoaded', () => {
       './images/Marie_Madeleine_Mieg_01.jpg',
       './images/Marie_Madeleine_Mieg_02.jpg',
       './images/Marie_Madeleine_Mieg_03.jpg',
-	  './images/Marie_Madeleine_Mieg_04.jpg',
+      './images/Marie_Madeleine_Mieg_04.jpg',
     ]);
 
     const Marie_Madeleine_Mieg_planeGeometry = new THREE.PlaneGeometry(1, 0.552);
@@ -1370,12 +1366,14 @@ document.addEventListener('DOMContentLoaded', () => {
       Mathieu_Mieg_portfolioItem0Texture,
       Mathieu_Mieg_portfolioItem1Texture,
       Mathieu_Mieg_portfolioItem2Texture,
+      Mathieu_Mieg_portfolioItem3Texture,
     ] = await loadTextures([
       './images/portfolio/icons/left.png',
       './images/portfolio/icons/right.png',
       './images/Mathieu_Mieg_01.jpg',
       './images/Mathieu_Mieg_02.jpg',
       './images/Mathieu_Mieg_03.jpg',
+      './images/Mathieu_Mieg_03_b.jpg',
     ]);
 
     const Mathieu_Mieg_planeGeometry = new THREE.PlaneGeometry(1, 0.552);
@@ -1393,11 +1391,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const Mathieu_Mieg_portfolioItem0Material = new THREE.MeshBasicMaterial({map: Mathieu_Mieg_portfolioItem0Texture});
     const Mathieu_Mieg_portfolioItem1Material = new THREE.MeshBasicMaterial({map: Mathieu_Mieg_portfolioItem1Texture});
     const Mathieu_Mieg_portfolioItem2Material = new THREE.MeshBasicMaterial({map: Mathieu_Mieg_portfolioItem2Texture});
+    const Mathieu_Mieg_portfolioItem3Material = new THREE.MeshBasicMaterial({map: Mathieu_Mieg_portfolioItem3Texture});
 
     const Mathieu_Mieg_portfolioItem0V = new THREE.Mesh(Mathieu_Mieg_planeGeometry, Mathieu_Mieg_portfolioItem0VideoMaterial); 
     const Mathieu_Mieg_portfolioItem0 = new THREE.Mesh(Mathieu_Mieg_planeGeometry, Mathieu_Mieg_portfolioItem0Material); 
     const Mathieu_Mieg_portfolioItem1 = new THREE.Mesh(Mathieu_Mieg_planeGeometry, Mathieu_Mieg_portfolioItem1Material); 
     const Mathieu_Mieg_portfolioItem2 = new THREE.Mesh(Mathieu_Mieg_planeGeometry, Mathieu_Mieg_portfolioItem2Material); 
+    const Mathieu_Mieg_portfolioItem3 = new THREE.Mesh(Mathieu_Mieg_planeGeometry, Mathieu_Mieg_portfolioItem3Material);
 
 
     const Mathieu_Mieg_portfolioGroup = new THREE.Group();
@@ -1430,7 +1430,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Mathieu_Mieg_portfolioItem0.userData.clickable = true;
     Mathieu_Mieg_portfolioItem0V.userData.clickable = true;
 
-    const Mathieu_Mieg_portfolioItems = [Mathieu_Mieg_portfolioItem0, Mathieu_Mieg_portfolioItem1, Mathieu_Mieg_portfolioItem2]; 
+    const Mathieu_Mieg_portfolioItems = [Mathieu_Mieg_portfolioItem0, Mathieu_Mieg_portfolioItem1, Mathieu_Mieg_portfolioItem2, Mathieu_Mieg_portfolioItem3]; 
     let Mathieu_Mieg_currentPortfolio = 0;
 
     document.body.addEventListener('click', (e) => {
